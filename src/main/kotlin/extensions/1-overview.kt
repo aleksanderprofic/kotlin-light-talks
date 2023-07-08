@@ -1,9 +1,8 @@
 package extensions
 
-// Way of extending existing classes with new functionality without any wrappers,
-// using inheritance or OOP patterns (Decorators)
+// Way of extending existing classes with new functionality without any wrappers, inheritance or OOP patterns (Decorators)
 
-// After defining we can use it as simply as part of the original API
+// After defining we can use it simply as part of the original API
 
 // Thanks to them, we can make our code easier to read and more maintainable.
 // We can focus on adding logic specific to our needs rather that creating wrappers that serve just as boilerplate

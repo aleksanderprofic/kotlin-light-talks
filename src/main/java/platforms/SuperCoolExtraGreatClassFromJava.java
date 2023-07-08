@@ -1,18 +1,17 @@
 package platforms;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class BroadcasterAnnotationMockCloneBroadcasterStrategyContextIteratorSetterTraversalInvocation {
+public class SuperCoolExtraGreatClassFromJava {
     private int randomInt;
 
-    public BroadcasterAnnotationMockCloneBroadcasterStrategyContextIteratorSetterTraversalInvocation() {
+    public SuperCoolExtraGreatClassFromJava() {
         this.randomInt = ThreadLocalRandom.current().nextInt(0, 100);
     }
 
     public void simplyDoNothing() {
-        System.out.println("Yup pretty much nothing :3");
+        System.out.println("Yup pretty much nothing XD");
     }
 
     public void performIOOperation() throws IOException {

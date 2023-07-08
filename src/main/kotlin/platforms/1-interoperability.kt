@@ -1,11 +1,17 @@
 package platforms
 
+import java.io.IOException
+
 fun main() {
-    val invocation = BroadcasterAnnotationMockCloneBroadcasterStrategyContextIteratorSetterTraversalInvocation()
+    val invocation = SuperCoolExtraGreatClassFromJava()
 
     val int = invocation.randomInt
 
     val nothing = invocation.simplyDoNothing()
 
-    invocation.performIOOperation();
+    try {
+        invocation.performIOOperation()
+    } catch (e: IOException) {
+        println(e)
+    }
 }
